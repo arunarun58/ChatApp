@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat App</title>
+  </head>
+  <body>
+    <div class="chat-container">
+      <h1>Chatting</h1>
+
+      <!-- Display Messages -->
+      <div id="messages"></div>
+
+      <!-- Input Box & Send Button -->
+      <div>
+        <input
+          id="message_box"
+          type="text"
+          placeholder="Enter Your Message..."
+        />
+        <button id="send_btn">Send Message</button>
+      </div>
+    </div>
+
+    <!-- Include the Socket.IO client library -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
