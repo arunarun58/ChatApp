@@ -34,11 +34,17 @@ Follow these steps to get your development environment set up:
    git clone https://github.com/arunarun58/ChatApp.git
    ```
 2. **Navigate to the project directory**
+   ```bash
    cd chat-app
-3. **Install dependencies**
+   ```
+4. **Install dependencies**
+   ```bash
    npm install
-4. **Start the Server**
+   ```
+6. **Start the Server**
+   ```bash
    node server.js
+   ```
 
 **Usage**
 Open the app in a browser: http://localhost:3000
